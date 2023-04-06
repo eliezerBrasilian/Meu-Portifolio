@@ -7,13 +7,17 @@
   display: flex;
   flex: 1 0 auto;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 header > a {
   text-decoration: none;
 }
+
 header > a:hover {
   background-color: red;
   border-radius: 5%;
+  text-decoration: none;
+  padding: 5px;
 }
 div > Apresentacao {
   display: flex;
@@ -70,17 +74,26 @@ StacksUtilizadas {
   font-weight: 700;
   color: #4b3369;
 }
-
+.linkagem {
+  width: 50%;
+  margin-top: 20px;
+  display: flex;
+}
+.linkagem:hover {
+  text-decoration: none;
+}
 .btn-acessar-repositorio {
   background-color: #f04343;
-  margin-top: 20px;
   padding: 10px 20px;
   border-radius: 8px;
   border-color: transparent;
-  max-width: 50%;
+  width: 100%;
   color: #000;
   font-family: "Inder", sans-serif;
   font-size: 22px;
+}
+.btn-acessar-repositorio:hover {
+  box-shadow: 5px 5px rgba(117, 113, 115, 0.33);
 }
 
 @media (max-width: 425px) {
